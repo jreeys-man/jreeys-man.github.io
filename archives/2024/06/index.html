@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><meta name="author" content="Cytrogen"><title>Cariceon的博客</title><meta name="description" content="A Resume Page Powered By Hexo"><meta name="keywords"><link rel="icon" href="images/favicon.ico"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="renderer" content="webkit"><link rel="stylesheet" href="/css/style.css"><link rel="stylesheet" href="/css/blog_basic.css"><link rel="stylesheet" href="/css/font-awesome.min.css"><link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml"><script src="/js/jquery.js"></script><meta name="generator" content="Hexo 7.1.1"></head><body><div class="page-top animated fadeInDown"><div class="nav"><li><a href="#暑假快乐">暑假快乐</a></li></div><div class="information"><div class="back_btn"><li><a class="fa fa-chevron-left" onclick="window.history.go(-1)" style="display:none;"> </a></li></div></div></div><div class="sidebar animated fadeInDown"><div class="side-content"><div class="logo-title"><div class="title"><img src="/images/logo@2x.png" style="width:127px;"><h3 title=""><a href="/">EgreUnith</a></h3></div></div><ul class="social-links"><li> <i class="fa fa-phone"></i>(+86)023-6862-9315</li><li><i class="fa fa-address-card"> </i>重庆市九龙坡区</li><li><a target="_blank" rel="noopener" href="https://github.com/jreeys-man"><i class="fa fa-github"></i>jreeys-man</a></li><li><a target="_blank" rel="noopener" href="https://space.bilibili.com/1572624341"><i class="fa fa-linkedin"></i>Bilibili</a></li><li><a href="mailto:jreeys_man@foxmail.com"><i class="fa fa-envelope"></i>jreeys_man@foxmail.com</a></li></ul></div><div class="footer"><div class="p"> <span>© 2024<i class="fa fa-star"></i></span><span> Cytrogen</span></div><div class="by_farbox"><span>Powered by </span><a href="https://hexo.io/zh-cn/" target="_blank">Hexo </a><span> & </span><a href="https://github.com/Cytrogen/hexo-theme-Anatole-Core-Resume" target="_blank">Anatole-Core-Resume</a></div></div></div><div class="content" style="display:none;"><script>//- 如果是移动端，则设置content的margin-top为sidebar的高度
+//- If it is a mobile terminal, set the margin-top of content to the height of sidebar
+window.onload = function() {
+	if (window.matchMedia("(max-width: 960px)").matches) {
+		var sidebar = document.querySelector('.sidebar');
+		var sidebarHeight = sidebar.offsetHeight;
+		document.querySelector('.content').style.marginTop = `${sidebarHeight}px`;
+	}
+	//- 页面加载完成后，显示content
+	//- Display content after page loading is complete
+	document.querySelector(`.content`).style.display = "block";
+
+	//- 监听窗口大小变化，假设用户在桌面端上修改了窗口大小，需要重新设置content的margin-top
+	//- Listen for window size changes, assuming that the user modifies the window size on the desktop terminal, the margin-top of content will get reset
+	window.addEventListener('resize', function() {
+		if (window.matchMedia("(max-width: 960px)").matches) {
+			var sidebar = document.querySelector('.sidebar');
+			var sidebarHeight = sidebar.offsetHeight;
+			document.querySelector('.content').style.marginTop = `${sidebarHeight}px`;
+		} else {
+			//- 如果是桌面端，则设置content的margin-top为60px
+			//- If it is a desktop terminal, set the margin-top of content to 60px
+			document.querySelector('.content').style.marginTop = "60px";
+		}
+	});
+}
+</script><div class="post animated fadeInDown" id="暑假快乐"><div class="post-title"><h1><a>暑假快乐</a></h1></div><div class="post-content"><h3 id="哦，我勒个大唐盛世啊，居然怎么快就到暑假了，成绩还不知道，真紧张"><a href="#哦，我勒个大唐盛世啊，居然怎么快就到暑假了，成绩还不知道，真紧张" class="headerlink" title="哦，我勒个大唐盛世啊，居然怎么快就到暑假了，成绩还不知道，真紧张"></a>哦，我勒个大唐盛世啊，居然怎么快就到暑假了，成绩还不知道，真紧张</h3><p>我的luogu: <a target="_blank" rel="noopener" href="https://www.luogu.com.cn/user/1096184">ClickHere</a><br>定期刷题，记得关注</p>
+<p><del>成绩出来我会死的很惨555</del>  </p>
+</div><div class="post-footer"><div class="meta"><div class="info"><hr></div></div></div></div><div class="pagination"><ul class="clearfix"></ul></div></div><script src="/js/jquery-migrate-1.2.1.min.js"></script><script src="/js/jquery.appear.js"></script><script src="/js/add-bookmark.js"></script></body></html>
